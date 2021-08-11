@@ -1,0 +1,40 @@
+@import "../fonts/Museo/stylesheet.css";
+@import "../fonts/maryed/stylesheet.css";
+@import "../libs/bootsrap/bootstrap.css";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.go-top{
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    line-height:25px;
+
+}
+
+$Museo700 :"Museo Sans Cyrl 700", sans-serif;
+$Museo500:"Museo Sans Cyrl 500",sans-serif;
+$Museo300:"Museo Sans Cyrl 300",sans-serif;
+
+@import "text";
+@import "header";
+@import "home";
+@import "run";
+@import "consult";
+@import "slide";
+@import "tabs";

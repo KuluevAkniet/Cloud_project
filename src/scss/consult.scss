@@ -1,0 +1,39 @@
+.consult{
+  padding: 86px 0 92px 0;
+  background: url("../images/bg2@1X.png");
+  &__title{
+    @include text($Museo700, 36px, #fff);
+  }
+  &__subtitle{
+    @include text($Museo500, 20px, #fff);
+    margin: 68px 0 35px 0;
+
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 255px;
+  }
+  &__label{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius:50px;
+    &:last-child{
+      margin-bottom: 20px;
+    }
+  }
+  &__input{
+    width: 100%;
+    height: 100%;
+  }
+  &__btn{
+    width: 100%;
+    height: 55px;
+  }
+
+}

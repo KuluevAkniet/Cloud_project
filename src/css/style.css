@@ -1,0 +1,335 @@
+@import "../fonts/Museo/stylesheet.css";
+@import "../fonts/maryed/stylesheet.css";
+@import "../libs/bootsrap/bootstrap.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.go-top {
+  width: 100px;
+  height: 25px;
+  background-color: red;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  line-height: 25px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+.header__menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.header__subtitle {
+  font-family: "Museo Sans Cyrl 700", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-left: -4%;
+}
+.header__tel {
+  font-family: "Museo Sans Cyrl 700", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 7px;
+}
+.header__button {
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  padding: 7px 13px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 95%;
+  margin-left: 5%;
+  background-color: #c70101;
+}
+.header__button:hover {
+  color: #c70101;
+  background-color: #fff;
+  transition-duration: 0.8s;
+}
+
+.home {
+  background: url("../images/header/images/bg.png") no-repeat top left/100% 100%;
+  background-size: cover;
+  text-align: end;
+  padding: 177px 0 50px 0;
+}
+.home__title {
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "Myriad Pro";
+  font-weight: normal;
+  font-style: normal;
+}
+.home__subtitle {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+}
+.home__menu {
+  margin-top: 65px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
+  margin-bottom: 67px;
+}
+.home__icon {
+  margin-right: 3%;
+  text-align: center;
+}
+.home__icon {
+  margin-right: 3%;
+  text-align: center;
+}
+.home__icon:last-child {
+  margin-right: 0;
+}
+.home__img {
+  margin-bottom: 15px;
+}
+.home__img-text {
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+.home__button {
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #c70101;
+  margin-bottom: 20px;
+}
+.home__button:hover {
+  color: #c70101;
+  background-color: #fff;
+  transition-duration: 0.8s;
+}
+.home__text {
+  display: flex;
+  justify-content: flex-end;
+}
+.home__p1 {
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 6px;
+}
+.home__a {
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+.home__a:hover {
+  color: #c70101;
+  transition-duration: 0.8s;
+}
+
+.run {
+  background-color: #F6F6F6;
+  padding: 100px 0 100px 0;
+}
+.run__zag {
+  font-family: "Museo Sans Cyrl 700", sans-serif;
+  font-size: 30px;
+  color: #0D0D0D;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.run .col-4 {
+  text-align: center;
+  padding-left: 100px;
+}
+.run .col-4:first-child {
+  padding-left: 0;
+}
+.run__icon {
+  margin-bottom: 50px;
+}
+.run__title {
+  font-family: "Museo Sans Cyrl 700", sans-serif;
+  font-size: 18px;
+  color: #0D0D0D;
+  margin-bottom: 30px;
+}
+.run__subtitle {
+  font-family: "Museo Sans Cyrl 300", sans-serif;
+  font-size: 14px;
+  color: #0D0D0D;
+  line-height: 160%;
+}
+.run__running {
+  font-family: "Museo Sans Cyrl 300", sans-serif;
+  font-size: 14px;
+  color: #FF0000;
+}
+.run__running:hover {
+  background-color: #FF0000;
+  border-radius: 3px;
+  padding: 3px 7px;
+  color: #fff;
+  transition-duration: 0.8s;
+}
+
+.consult {
+  padding: 86px 0 92px 0;
+  background: url("../images/bg2@1X.png");
+}
+.consult__title {
+  font-family: "Museo Sans Cyrl 700", sans-serif;
+  font-size: 36px;
+  color: #fff;
+}
+.consult__subtitle {
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin: 68px 0 35px 0;
+}
+.consult__form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 255px;
+}
+.consult__label {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+.consult__label:last-child {
+  margin-bottom: 20px;
+}
+.consult__input {
+  width: 100%;
+  height: 100%;
+}
+.consult__btn {
+  width: 100%;
+  height: 55px;
+}
+
+.slider {
+  padding: 108px 0 98px;
+}
+.slider .owl-carousel .owl-item img {
+  width: 750px;
+  height: 527px;
+  margin: 0 auto;
+}
+.slider .owl-nav .owl-prev {
+  background: url("../images/carousel/chevron-left-solid.png") center/cover no-repeat;
+  height: 50px;
+  width: 31px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.slider .owl-nav .owl-next {
+  background: url("../images/carousel/chevron-right-solid.png") center/cover no-repeat;
+  height: 50px;
+  width: 31px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.slider .Inner {
+  width: 200%;
+}
+.slider .Inner__front {
+  width: 100%;
+}
+.slider .Inner__front__back {
+  width: 100%;
+}
+
+.tab {
+  width: 100%;
+  padding-bottom: 93px;
+}
+.tab__subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: MuseoSansCyrl-700, sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.tab__content {
+  display: none;
+}
+
+.tab__content.active {
+  display: block;
+}
+
+.tab__caption {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.tab__item {
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #C70101;
+  margin-right: 10px;
+  text-align: center;
+  transform: skew(-22deg);
+  cursor: pointer;
+  border: 2px solid;
+  line-height: 45px;
+}
+.tab__item__active {
+  background-color: #C70101;
+  color: white;
+}
+.tab__item:last-child {
+  margin-right: 0;
+  text-align: center;
+}
+.tab__item .tab__item_active {
+  background-color: #C70101;
+  color: white;
+}
+.tab__item .skew-text {
+  transform: skew(22deg);
+}
+.tab__item .client {
+  width: 100%;
+  height: 876;
+}
+.tab__item .client__title {
+  text-align: center;
+}

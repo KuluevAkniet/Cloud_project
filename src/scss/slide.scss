@@ -1,0 +1,35 @@
+.slider{
+  padding: 108px 0 98px;
+  .owl-carousel .owl-item img{
+    width: 750px;
+    height: 527px;
+    margin: 0 auto;
+  }
+  .owl-nav .owl-prev{
+    background: url("../images/carousel/chevron-left-solid.png") center/cover no-repeat;
+    height: 50px;
+    width: 31px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .owl-nav .owl-next{
+    background: url("../images/carousel/chevron-right-solid.png") center/cover no-repeat;
+    height: 50px;
+    width: 31px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .Inner{
+    width: 200%;
+    &__front{
+      width: 100%;
+      &__back{
+        width: 100%;
+      }
+    }
+  }
+
+}
